@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Українська кухня – Головна</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>Українська кухня</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Головна</a></li>
+          <li><a href="about.html">Про кухню</a></li>
+          <li><a href="gallery.html">Галерея страв</a></li>
+          <li><a href="media.html">Рецепти</a></li>
+          <li><a href="contact.html">Контакти</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h2>Ласкаво просимо!</h2>
+      <p>
+        Українська кухня — одна з найсмачніших та найрізноманітніших у світі.
+        Тут ви знайдете інформацію про традиційні страви, рецепти,
+        медіаматеріали та багато іншого.
+      </p>
+
+      <img
+        src="борщ2jpg.jpg"
+        alt="Борщ — традиційна страва України"
+        width="500"
+        />
+
+      <map name="ukranian-menu-map">
+        <area
+          shape="rect"
+          coords="0,0,100,100"
+          href="about.html"
+          alt="Про кухню">
+
+      </h2> Карта меню</h2>
+<p>Натисніть на одну з українських страв, щоб перейти на відповідну сторінку:</p>
+
+<img src="ukrainian-menu-map.jpg" usemap="#menu" alt="Карта українських страв" width="500">
+
+<map name="menu">
+  <!-- Борщ (зліва) -->
+  <area shape="rect" coords="20,75,130,200" href="about.html" alt="Про кухню" title="Про кухню">
+
+  <!-- Вареники (центр) -->
+  <area shape="circle" coords="250,140,60" href="gallery.html" alt="Галерея страв" title="Галерея страв">
+
+  <!-- Голубці (праворуч) -->
+  <area shape="rect" coords="340,75,460,200" href="media.html" alt="Рецепти " title="Рецепти">
+</map>
+
+      </map>
+     
+
+      <table>
+        <caption>
+          Популярні страви
+        </caption>
+        <tr>
+          <th>Назва</th>
+          <th>Опис</th>
+        </tr>
+        <tr>
+          <td>Борщ</td>
+          <td>
+            Традиційний борщ- рідка страва, що вариться з різноманітних овочів і
+            має безліч варіантів приготування, поєднаних квасним смаком.
+          </td>
+        </tr>
+        <tr>
+          <td>Вареники</td>
+          <td>
+            Вареники — українська національна страва у вигляді відвареного
+            прісного тіста з начинкою (вишні, картопля, сир).
+          </td>
+        </tr>
+        <tr>
+          <td>Голубці</td>
+          <td>
+            Голубці- Страва готується з листя свіжої чи кислої капусти та
+            начинки з м'яса, рису чи гречки, кукурудзяних чи пшоняних круп,
+            картоплі, квасолі, грибів, цибулі, моркви та прянощів.
+          </td>
+        </tr>
+      </table>
+
+      <button onclick="showAlert()">Натисни мене!</button>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Сайт \"Українська кухня\"</p>
+    </footer>
+  </body>
+</html>
